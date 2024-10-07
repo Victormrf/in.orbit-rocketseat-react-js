@@ -73,7 +73,7 @@ export function Summary() {
 
 						return (
 							<div key={date} className="flex flex-col gap-4">
-								<h3 className="font-medium capitalize">
+								<h3 className="font-medium">
 									<span className="capitalize">{weekDay}</span>{' '}
 									<span className="text-zinc-400 text-xs">({formattedDate})</span>
 								</h3>

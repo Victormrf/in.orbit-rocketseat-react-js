@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react'
 import { Dialog } from './components/ui/dialog'
 import { CreateGoal } from './components/create-goal'
 import { EmptyGoals } from './components/empty-goals'
@@ -16,6 +15,7 @@ export function App() {
 	return (
 		<Dialog>
 			{data?.total && data.total > 0 ? <Summary /> : <EmptyGoals />}
+			{/* <EmptyGoals /> */}
 			<CreateGoal />
 		</Dialog>
 	)
